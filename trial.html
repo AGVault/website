@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Start your AGVault membership with a 7-day free trial, then $9.99 per month."
+    />
+    <title>Start your free trial | AGVault</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="trial-page">
+    <header class="site-header trial-header">
+      <a class="brand" href="index.html" aria-label="AGVault home">
+        <img class="brand-logo" src="assets/agvault-logo.png" alt="AG Vault" />
+      </a>
+      <a class="trial-back" href="index.html#pricing"
+        >Back to pricing <span aria-hidden="true">↗</span></a
+      >
+    </header>
+
+    <main class="trial-main">
+      <section class="trial-intro">
+        <p class="eyebrow">
+          <span class="eyebrow-dot"></span> Your collection starts here
+        </p>
+        <h1>Make yourself<br /><em>at home.</em></h1>
+        <p>
+          Create your account to begin exploring AGVault. Your first week is
+          free, then membership is $9.99 per month.
+        </p>
+      </section>
+
+      <section class="trial-signup" aria-labelledby="trial-signup-title">
+        <span class="pricing-kicker">AGVAULT MEMBERSHIP</span>
+        <h2 id="trial-signup-title">Start your 7-day free trial</h2>
+        <p class="trial-signup-price">
+          <strong>$0</strong> today <span>then $9.99 / month</span>
+        </p>
+        <form class="trial-form">
+          <label for="name">Name</label>
+          <input
+            id="name"
+            name="name"
+            type="text"
+            autocomplete="name"
+            placeholder="Your name"
+            required
+          />
+          <label for="trial-email">Email address</label>
+          <input
+            id="trial-email"
+            name="email"
+            type="email"
+            autocomplete="email"
+            placeholder="you@example.com"
+            required
+          />
+          <label for="trial-password">Create a password</label>
+          <input
+            id="trial-password"
+            name="password"
+            type="password"
+            autocomplete="new-password"
+            placeholder="At least 8 characters"
+            minlength="8"
+            required
+          />
+          <button class="button button-primary trial-submit" type="button">
+            Create account
+          </button>
+        </form>
+        <p class="trial-disclaimer">
+          No payment is taken today. After 7 days, membership renews at $9.99
+          per month. Cancel anytime.
+        </p>
+        <p class="trial-prototype-note">
+          Signup is a preview and isn't connected yet.
+        </p>
+        <p class="trial-login">
+          Already have an account? <a href="#trial-signup-title">Log in</a>
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer trial-footer">
+      <a class="brand" href="index.html" aria-label="AG Vault home"
+        ><img class="brand-logo" src="assets/agvault-logo.png" alt="AG Vault"
+      /></a>
+      <p>By collectors, for collectors.</p>
+    </footer>
+  </body>
+</html>
